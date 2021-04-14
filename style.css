@@ -67,17 +67,22 @@
 }
 
 #menu ul li {
+    display: inline;
     font-weight: bold;
     padding-left: 3px;
+    
     border-left: solid 8px blue;
     border-bottom: dotted 1px blue;
     
+    
 }
 
-#menu ul p {
+#menu ul li ul li {
     border: none;
+    font-weight: normal;
     margin: 0 0 10px 20px;
 }
+
 .fontyellow {
     color: yellow;
 }
