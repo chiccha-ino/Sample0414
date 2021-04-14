@@ -70,17 +70,15 @@
     display: inline;
     font-weight: bold;
     padding-left: 3px;
-    
     border-left: solid 8px blue;
     border-bottom: dotted 1px blue;
     
-    
 }
 
-#menu ul li ul li {
+#menu ul li p {
     border: none;
     font-weight: normal;
-    margin: 0 0 10px 20px;
+    margin: 0 0 10px 10px;
 }
 
 .fontyellow {
