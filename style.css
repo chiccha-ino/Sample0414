@@ -1,15 +1,83 @@
 @charset "utf-8";
 
-/* ------------------------------------ wrapper ------------------------------------*/
+/* ------------------------------------ outer ------------------------------------*/
 #outer {
-    width: 500px;
-    padding: 30px;
+    width: 450px;
+    padding: 20px 50px;
     margin: 0 auto;
     background: #CCC;
-    text-align: center;
+    
     position: relative;
+    font-size: 15px;
+    
 }
 
 #outer h1 {
-    font-size: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title {
+    font-size:25px;
+    padding: 0 20px;
+}
+/* ------------------------------------ content ------------------------------------*/
+
+#content {
+    border: solid 2px red;
+    background: #FFF;
+    margin:0 0 30px 0;
+}
+
+#content ul {
+    list-style-type: square;
+    margin: 0 20px;
+}
+
+#content li {
+    margin-bottom: 5px;
+}
+
+.fontred {
+    color: red;
+}
+
+.backred {
+    background: pink;
+}
+
+.memo {
+    background: #F0F0F0;
+    padding: 5px 5px;
+    margin: 20px; 
+}
+
+
+/* ------------------------------------ menu ------------------------------------*/
+
+#menu {
+    border: solid 2px blue;
+    background: #FFF; 
+    margin:0 0 30px 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+#menu ul li {
+    font-weight: bold;
+    padding-left: 3px;
+    border-left: solid 8px blue;
+    border-bottom: dotted 1px blue;
+    
+}
+
+#menu ul p {
+    border: none;
+    margin: 0 0 10px 20px;
+}
+.fontyellow {
+    color: yellow;
 }
